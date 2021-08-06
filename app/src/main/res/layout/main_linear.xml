@@ -7,24 +7,26 @@
 
     <TextView
         android:text="@string/ol_mundo"
-        android:textSize="48sp"
-        android:textColor="@color/purple_200"
-        android:textStyle="bold"
-        android:textAllCaps="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        style="@style/title_purple" />
 
     <TextView
+        style="@style/title_purple"
         android:text="@string/ol_mundo"
         android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <CheckBox
+        style="@style/title_purple"
+        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:text="@string/checkbox"
         android:layout_height="wrap_content"/>
 
     <RadioButton
+        style="@style/title_purple"
+        android:textSize="20sp"
         android:text="@string/radiobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
