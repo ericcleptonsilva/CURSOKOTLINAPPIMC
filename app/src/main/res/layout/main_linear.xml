@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
@@ -14,6 +15,8 @@
     <TextView
         style="@style/title_purple"
         android:text="@string/ol_mundo"
+        android:layout_marginTop="22sp"
+        android:padding="25sp"
         android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -25,10 +28,12 @@
         android:layout_height="wrap_content"/>
 
     <RadioButton
-        style="@style/title_purple"
+        android:padding="25sp"
         android:textSize="20sp"
         android:text="@string/radiobutton"
         android:layout_width="wrap_content"
+        android:visibility="visible"
+        tools:visibility="visible"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>
