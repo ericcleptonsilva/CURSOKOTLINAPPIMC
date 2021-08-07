@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Calculadora IMC</string>
-    <string name="ol_mundo">Olá Mundo!</string>
-    <string name="checkbox">CheckBox</string>
-    <string name="radiobutton">RadioButton</string>
+    <string name="IMC">IMC</string>
+    <string name="hintPeso">Peso (Ex.: 40.5kg)</string>
+    <string name="hintAltura">Altura (Ex.: 1.70 cm)</string>
+    <string name="BtCalcular">Calcular</string>
+
 </resources>

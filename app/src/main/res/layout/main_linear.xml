@@ -7,33 +7,34 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="@string/ol_mundo"
+        android:id="@+id/titleTXT"
+        android:text="@string/IMC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/title_purple" />
+        style="@style/Color_title" />
 
-    <TextView
-        style="@style/title_purple"
-        android:text="@string/ol_mundo"
-        android:layout_marginTop="22sp"
-        android:padding="25sp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <CheckBox
-        style="@style/title_purple"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:text="@string/checkbox"
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:hint="@string/hintPeso"
+        android:layout_height="wrap_content"
+        style="@style/Input_style" />
+
+    <EditText
+        android:id="@+id/altura"
+        style="@style/Input_style"
+        android:hint="@string/hintAltura"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <RadioButton
-        android:padding="25sp"
-        android:textSize="20sp"
-        android:text="@string/radiobutton"
+    <Button
+        android:id="@+id/BtCalcular"
+        android:text="@string/BtCalcular"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="46dp"
         android:layout_width="wrap_content"
-        android:visibility="visible"
-        tools:visibility="visible"
         android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
